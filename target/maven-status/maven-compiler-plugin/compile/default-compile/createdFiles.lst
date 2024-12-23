@@ -1,0 +1,5 @@
+com/amazonaws/fixengineonaws/ValkeyStore.class
+com/amazonaws/fixengineonaws/PerformanceMetrics.class
+com/amazonaws/fixengineonaws/LambdaHandler.class
+com/amazonaws/fixengineonaws/IOOperation.class
+com/amazonaws/fixengineonaws/ValkeyStore$Fields.class
