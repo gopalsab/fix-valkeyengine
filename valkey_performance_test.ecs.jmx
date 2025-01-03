@@ -25,7 +25,7 @@
           </elementProp>
           <elementProp name="ALB_HOST" elementType="Argument">
             <stringProp name="Argument.name">ALB_HOST</stringProp>
-            <stringProp name="Argument.value">${__P(alb_host,valkey-alb-1156727089.us-east-1.elb.amazonaws.com)}</stringProp>
+            <stringProp name="Argument.value">${__P(alb_host,XXX)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>

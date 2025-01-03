@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.amazonaws.fixengineonaws.BenchmarkTest" time="181.638" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.amazonaws.fixengineonaws.BenchmarkTest" time="180.99" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-LTS"/>
@@ -58,5 +58,5 @@
     <property name="java.vendor.version" value="Corretto-17.0.13.11.1"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="com.amazonaws.fixengineonaws.BenchmarkTest" name="runBenchmark" time="181.638"/>
+  <testcase classname="com.amazonaws.fixengineonaws.BenchmarkTest" name="runBenchmark" time="180.99"/>
 </testsuite>

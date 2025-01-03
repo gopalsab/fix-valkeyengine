@@ -17,7 +17,7 @@ import com.sun.net.httpserver.HttpServer;
 import java.net.InetSocketAddress;
 
 public class ValkeyStoreSampler extends AbstractJavaSamplerClient {
-    private static final String MEMORYDB_ENDPOINT = "clustercfg.fix-performance-cluster-us-east-1.wxfcuv.memorydb.us-east-1.amazonaws.com";
+    private static final String MEMORYDB_ENDPOINT = "XXX";
     private static final int MEMORYDB_PORT = 6379;
     private static final boolean USE_SSL = true;
 
