@@ -10,12 +10,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class BenchmarkTest {
-    private static final int NUM_CLIENTS = 10;
-    private static final int TEST_DURATION_SECONDS = 120;
+    private static final int NUM_CLIENTS = 1;
+    private static final int TEST_DURATION_SECONDS = 60;
     private static final List<ValkeyStore> stores = new ArrayList<>();
 
     // Amazon MemoryDB connection details
-    private static final String MEMORYDB_ENDPOINT = "xxx";
+    private static final String MEMORYDB_ENDPOINT = "clustercfg.fix-performance-cluster-us-east-1.wxfcuv.memorydb.us-east-1.amazonaws.com";
     private static final int MEMORYDB_PORT = 6379;
     private static final boolean USE_SSL = true;
 
