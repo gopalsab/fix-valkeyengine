@@ -1,6 +1,7 @@
 package com.amazonaws.fixengineonaws;
 
 import com.sun.net.httpserver.HttpServer;
+import org.apache.jmeter.config.Arguments;
 import org.apache.jmeter.protocol.java.sampler.JavaSamplerContext;
 
 import java.net.InetSocketAddress;
@@ -22,7 +23,11 @@ public class Main {
 
         // Initialize ValkeyStoreSampler
         ValkeyStoreSampler sampler = new ValkeyStoreSampler();
-        sampler.setupTest(new JavaSamplerContext(null));
+        Arguments jmeterArgs = new Arguments();
+        // Add any necessary arguments here
+        jmeterArgs.addArgument("THREADS", "10");
+        JavaSamplerContext context = new JavaSamplerContext(jmeterArgs);
+        sampler.setupTest(context);
 
         // Keep the application running
         Thread.currentThread().join();
